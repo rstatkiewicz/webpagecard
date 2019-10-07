@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="lg1">
+   <stop id="s1" offset="0" stop-opacity="0" stop-color="white"/>
+   <stop id="s2" offset="1" stop-color="white"/>
+  </linearGradient>
+  <linearGradient xlink:href="#lg1" id="lg3" x1="0.6558" y1="0.86502" x2="0.5" y2="0"/>
+  <linearGradient id="lg2">
+   <stop offset="0" id="s3" stop-color="#fff6d5"/>
+   <stop offset="0.36" id="s4" stop-color="#ffe680"/>
+   <stop offset="0.79" id="s5" stop-color="#ffd42a"/>
+   <stop offset="1" id="s6" stop-color="#ffcc00"/>
+  </linearGradient>
+  <radialGradient xlink:href="#lg2" id="rg1" cx="-100" cy="-278" fx="-100" fy="-278" r="155" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.267,0,0,1.73,26.67,204.12)"/>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g id="layer1">
+   <path id="p1" d="m295.97639,150.27166a146.26196,146.26196 0 1 1 -292.52392,0a146.26196,146.26196 0 1 1 292.52392,0z" stroke-width="4" fill="url(#rg1)" stroke="#d4aa00"/>
+   <path d="m150,10c-76,0 -138,61 -140,137c39,35 77,36 96,27c20,-9 36,-38 62,-45c26,-6 40,-5 81,12c23,9 20,-22 37,-25c-15,-61 -70,-106 -136,-106z" id="p2" fill="url(#lg3)"/>
+  </g>
+  <text fill="#000000" stroke-width="0" x="273.58824" y="31.63265" id="svg_1" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve" font-weight="bold" transform="matrix(2.4285714626312256,0,0,2.5699301403719232,-386.4285806417465,-21.229021907113236) " stroke="#000000">!</text>
+ </g>
+</svg>

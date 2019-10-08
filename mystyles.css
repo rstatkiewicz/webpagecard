@@ -1,8 +1,23 @@
 body {
     background-color: #B5D6B2;
+    border: 16px solid darkgreen;
 }
 
 .skills {
     float: left;
     text-decoration: none;
 }
+
+@import "normalize";
+@import "variables";
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+@import "modules/hero.scss";

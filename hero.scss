@@ -5,12 +5,35 @@
     &__image {
         width: 120px;
         height: 120px;
+        margin-bottom: 3.75rem;
     }
     &__title {
         font-family: Poppins;
         font-style: normal;
         font-weight: 600;
-        font-size: 40px;
-        line-height: 56px;
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        max-width: 780px;
+    }
+    &__description {
+        color: $red;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1.25rem;
+        line-height: 2.25rem;
+        max-width: 780px;
+        margin: 2rem 0 1rem;
+    }
+    &__link {
+        color: $blue;
+        font-weight: 500;
+    }
+    &__mail {
+        color$blue;
+        font-weight: 500;
+        font-size: 1.25rem;
+        text-decoration: none;
+        paddind-bottom: 8px;
+        border-bottom: 2px solid $blue;
     }
 }
